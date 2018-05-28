@@ -2,8 +2,8 @@
 FROM alpine:3.7
 MAINTAINER Yorick Horrie <yorick@teamleader.eu>
 
-ENV DOCKER_VERSION=18.03.1-ce \
-    DOCKER_COMPOSE_VERSION=1.21.2 \
+ENV DOCKER_VERSION=17.05.0-ce \
+    DOCKER_COMPOSE_VERSION=1.18.0 \
     ENTRYKIT_VERSION=0.4.0
 
 # Install Docker and Docker Compose
